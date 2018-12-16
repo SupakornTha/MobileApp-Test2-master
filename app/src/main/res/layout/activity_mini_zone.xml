@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="362dp"
+            android:layout_height="match_parent"
+            android:background="#2b2b2b"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/Zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@id/imageView1"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Zone"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="#dbdbdb"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/Zone"
+                android:layout_toRightOf="@id/imageView1"
+                android:text="zone"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#dbdbdb"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Nolack1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Zone"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="23dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:text="Number of lack :"
+                android:textColor="#dbdbdb" />
+
+            <TextView
+                android:id="@+id/textViewLack"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewZone"
+                android:layout_alignEnd="@+id/btnPress1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="21dp"
+                android:layout_toEndOf="@+id/Nolack1"
+                android:text="Lack"
+                android:textColor="#dbdbdb" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="101dp"
+                android:layout_height="88dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="9dp"
+                app:srcCompat="@color/colorPrimary" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
